@@ -3826,6 +3826,43 @@ body {
     background: #f7f9fb;
 }
 
+.float-actions a {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, .18);
+    font-weight: 900;
+}
+
+.float-actions {
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    z-index: 900;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.call {
+    background: var(--navy);
+}
+.whatsapp {
+    background: #20b85a;
+}
+
+* {
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
 h1, h2, h3, h4, h5, h6,
 .hero h1, .section h2, .page-hero h1,
 .brand strong, .feature-card h3, .info-card h3,
